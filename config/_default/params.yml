@@ -1,11 +1,11 @@
-title: My cool site
-description: Text about my cool site
+title: 일본군’위안부연구회’
+description: 일본군’위안부연구회’는 일본군 ‘위안부’ 문제에 대해 학술적으로 천착하며 일본군 ‘위안부’ 문제의 정의로운 해결을 위해 활동하고 있습니다. 일본군’위안부 연구회’는 2016년 1월 창립되었으며 국내외의 연구자, 활동가, 유관단체 등이 회원으로 참여하고 있습니다.
 images:
   - site-feature-image.jpg
 
 license:
-  title_of_work: This website
-  link_to_work: URL
-  createor_of_work: NAME
-  link_to_creator_profile: URL
+  title_of_work: 일본군’위안부연구회’
+  link_to_work: jmssrn.org
+  createor_of_work: 팀두루미 AA
+  link_to_creator_profile: https://aa.durumi.io
   year_of_creation: 2021

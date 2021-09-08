@@ -1,5 +1,15 @@
 # https://gohugo.io/getting-started/configuration/
 
-title: Hugo project
-languageCode: en-us
+title: jmssrn
+languageCode: ko-kr
 hasCJKLanguage: true
+
+theme:
+  github.com/team-durumi/tailwind-aa-theme
+
+module:
+  mounts:
+  - source: github.com/team-durumi/tailwind-aa-theme/exampleSite/content
+    target: content
+  - source: github.com/team-durumi/tailwind-aa-theme/exampleSite/data
+    target: data
