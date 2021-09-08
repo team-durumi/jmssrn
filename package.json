@@ -2,12 +2,12 @@
   "comments": {
     "dependencies": {},
     "devDependencies": {
-      "@tailwindcss/typography": "github.com/team-durumi/tailwind-aa-theme",
-      "autoprefixer": "github.com/team-durumi/tailwind-aa-theme",
-      "postcss": "github.com/team-durumi/tailwind-aa-theme",
-      "postcss-cli": "github.com/team-durumi/tailwind-aa-theme",
-      "postcss-purgecss": "github.com/team-durumi/tailwind-aa-theme",
-      "tailwindcss": "github.com/team-durumi/tailwind-aa-theme"
+      "@tailwindcss/typography": "project",
+      "autoprefixer": "project",
+      "postcss": "project",
+      "postcss-cli": "project",
+      "postcss-purgecss": "project",
+      "tailwindcss": "project"
     }
   },
   "dependencies": {},
