@@ -1,15 +1,30 @@
 main:
-  - name: posts
+  - name: 학회소개
+    url: /about/
+    weight: -120  
+  - name: 공지사항
     url: /posts/
     weight: -110
-  - name: all
+  - name: 행사안내
     url: /posts/
     weight: 1
     parent: posts
-  - name: featured posts
-    url: /posts/featured
+  - name: 보도자료
+    url: /posts/
     weight: 2
     parent: posts
-  - name: about
-    url: /about/
+  - name: 학회활동
+    url: /articles/
     weight: -100
+  - name: 학술행사
+    url: /articles/
+    weight: 1
+    parent: posts
+  - name: 발간물
+    url: /articles
+    weight: 2
+    parent: posts
+  - name: 사회참여
+    url: /articles
+    weight: 3
+    parent: posts           

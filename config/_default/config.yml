@@ -1,6 +1,6 @@
 # https://gohugo.io/getting-started/configuration/
 
-title: jmssrn
+title: 일본군’위안부’연구회
 baseURL: https://jmssrn.org/
 languageCode: ko-kr
 hasCJKLanguage: true
@@ -10,3 +10,6 @@ theme:
 
 build:
   writeStats: true
+
+taxonomies:
+  category: categories
