@@ -3,6 +3,8 @@
 ###################### user/org information #####################
 user:
   title : 일본군’위안부’연구회
+  title-jp : 日本軍「慰安婦」研究会  
+  title-en : Research Network on Japanese Military Sexual Slavery
   tagLine : 일본군’위안부’연구회는 일본군 ‘위안부’ 문제에 대해 학술적으로 천착하며 일본군 ‘위안부’ 문제의 정의로운 해결을 위해 활동하고 있습니다. 일본군’위안부 연구회’는 2016년 1월 창립되었으며 국내외의 연구자, 활동가, 유관단체 등이 회원으로 참여하고 있습니다.
   tel : 
   fax : 
@@ -19,22 +21,12 @@ user:
     github : 
     url : http://durumi.io
     caption: 회원가입(구글링크)
-    fb : 
+    fb : https://www.facebook.com/jmssrnetwork
     tw : 
     instagram : 
     linkedin : 
 
 ######## Partials/app에 노출되는 사용자 데이터를 편집합니다. ########
-
-############################ simple-browse.html ##########################
-browseItems:
-  category : 아카이브(국내외)
-  title : 디지털아카이브 목록
-  enable : true
-  url : https://docs.google.com/spreadsheets/d/e/2PACX-1vRHcD8xBpgJwbVpcQj23lzwmjMH98kMRIIOwLU0oRefC0dZh6Fh1RLE6QdEbM3xrFla9gJQta59DXVv/pub
-  content : 국내외 디지털아카이브를 수집합니다. 개발 및 컨설팅에 참고하고자 수집을 시작했습니다. @daamable @woonjjang
-
-######## Partials/Marketing에 노출되는 사용자 데이터를 편집합니다. ########
 
 ########################## slider_alpine.html(slider.json) ##########################
 
