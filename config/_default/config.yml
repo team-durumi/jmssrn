@@ -13,3 +13,4 @@ build:
 
 taxonomies:
   category: categories
+  tag: tags
