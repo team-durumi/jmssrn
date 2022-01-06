@@ -2,15 +2,12 @@
 
 title: 일본군’위안부’연구회
 baseURL: https://jmssrn.org/
-languageCode: ko-kr
+defaultContentLanguage: ko
 hasCJKLanguage: true
-
-theme:
-  github.com/team-durumi/tailwind-aa-theme
+paginate: 1
 
 build:
   writeStats: true
 
 taxonomies:
-  category: categories
   tag: tags

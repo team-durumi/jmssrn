@@ -3,66 +3,31 @@ main:
     url: /about/
     weight: -120
   - name: 공지사항
-    url: /posts/
+    url: 
     weight: -110
   - name: 행사안내
-    url: /posts/
+    url: /tags/event/
     weight: 1
     parent: 공지사항
   - name: 보도자료
-    url: /posts/
+    url: /tags/news/
     weight: 2
     parent: 공지사항
   - name: 학회활동
-    url: /articles/
+    url: 
     weight: -100
   - name: 학술행사
-    url: /articles/
+    url: /tags/academic/
     weight: 1
     parent: 학회활동
   - name: 발간물
-    url: /articles
+    url: /tags/publish/
     weight: 2
     parent: 학회활동
   - name: 사회참여
-    url: /articles
-    weight: 3
-    parent: 학회활동
-
-footer:
-  - name: 소개
-    url: /about/
-    weight: -120
-  - name: 학회소개
-    url: /about/
-    weight: 1
-    parent: 소개   
-  - name: 공지사항
-    url: /posts/
-    weight: -110
-  - name: 행사안내
-    url: /posts/
-    weight: 1
-    parent: 공지사항
-  - name: 보도자료
-    url: /posts/
-    weight: 2
-    parent: 공지사항
-  - name: 학회활동
-    url: /articles/
-    weight: -100
-  - name: 학술행사
-    url: /articles/
-    weight: 1
-    parent: 학회활동
-  - name: 발간물
-    url: /articles
-    weight: 2
-    parent: 학회활동
-  - name: 사회참여
-    url: /articles
+    url: tags/socialize/
     weight: 3
     parent: 학회활동
   - name: 회원가입
-    url: https://www.facebook.com/jmssrnetwork
-    weight: -90                  
+    url: https://forms.gle/VYGJMcJMt8p6TuuB9
+    weight: 4                

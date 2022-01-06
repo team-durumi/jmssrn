@@ -20,11 +20,11 @@ collections:
       - { label: '본문', name: 'body', widget: 'markdown' }
       - { label: '메인 공개', name: 'home_sticky', widget: 'boolean', default: false, hint: 'true 메인공개', required: false }
       - { label: '목록 고정', name: 'pinned', widget: 'boolean', default: false, hint: 'true 목록고정', required: false }
-      - label: "카테고리"
-        name: "categories"
+      - label: "분류"
+        name: "tags"
         widget: "list"
         default: ["news"]
-        hint: '보도자료 news / 행사안내 events'  
+        hint: '보도자료 news / 행사안내 event'   
   - name: 'article'
     label: '학회활동'
     folder: 'content/articles'
