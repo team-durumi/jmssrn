@@ -12,9 +12,9 @@
 	          <span class="font-semibold title-font text-gray-700 dark:text-gray-300">CATEGORY</span>
 	          <span class="mt-1 text-gray-500 dark:text-gray-400 text-sm">{{ .Date.Format "2006-01-02" }}</span>
 	        </div>
-	        <div class="md:flex-grow">
+	        <div class="md:flex-grow truncate">
 	          <h2 class="text-2xl font-medium dark:text-gray-100 title-font mb-2">{{ .Title }}</h2>
-	          <p class="leading-relaxed">{{ .Summary }} </p>
+	          <p class=" leading-relaxed">{{ .Summary }} </p>
 	          <a href="{{ .Permalink }}"class="text-blue-600 dark:text-blue-500 inline-flex items-center mt-4">더 보기
 	            <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
 	              <path d="M5 12h14"></path>

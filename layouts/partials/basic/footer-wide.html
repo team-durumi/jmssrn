@@ -10,7 +10,7 @@
       <p class="mt-2 text-sm text-gray-100">{{ .Site.Data.marketing.user.tagLine }}</p>
     </div>
     <div class="flex-grow flex flex-wrap md:pr-20 -mb-10 md:text-left text-center order-first">
-      {{ range site.Menus.footer }}
+      {{ range site.Menus.main }}
         {{ if .HasChildren }}
           <div class="lg:w-1/4 md:w-1/2 w-full px-4">
             <h2 class="title-font text-xl text-gray-100 tracking-widest text-sm mb-3 hover:underline"><a href="{{ .URL | absURL }}">{{ .Name }}</a></h2>
