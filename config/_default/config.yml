@@ -4,7 +4,7 @@ title: 일본군’위안부’연구회
 baseURL: https://jmssrn.org/
 defaultContentLanguage: ko
 hasCJKLanguage: true
-paginate: 1
+paginate: 5
 
 build:
   writeStats: true

@@ -17,14 +17,14 @@ collections:
       - { label: '날짜', name: 'date', widget: 'datetime' }
       - { label: '요약', name: 'summary', widget: 'string', required: false }
       - { label: '대표이미지', name: 'image', widget: 'image', required: false }
-      - { label: '본문', name: 'body', widget: 'markdown' }
       - { label: '메인 공개', name: 'home_sticky', widget: 'boolean', default: false, hint: 'true 메인공개', required: false }
       - { label: '목록 고정', name: 'pinned', widget: 'boolean', default: false, hint: 'true 목록고정', required: false }
       - label: "분류"
         name: "tags"
         widget: "list"
         default: ["news"]
-        hint: '보도자료 news / 행사안내 event'   
+        hint: '보도자료 news / 행사안내 event'
+      - { label: '본문', name: 'body', widget: 'markdown' }          
   - name: 'article'
     label: '학회활동'
     folder: 'content/articles'
@@ -38,11 +38,11 @@ collections:
       - { label: '날짜', name: 'date', widget: 'datetime' }
       - { label: '요약', name: 'summary', widget: 'string', required: false }
       - { label: '대표이미지', name: 'image', widget: 'image', required: false }
-      - { label: '본문', name: 'body', widget: 'markdown' }
       - { label: '메인 공개', name: 'home_sticky', widget: 'boolean', default: false, hint: 'true 메인공개', required: false }
       - { label: '목록 고정', name: 'pinned', widget: 'boolean', default: false, hint: 'true 목록고정', required: false }
       - label: "활동구분"
         name: "tags"
         widget: "list"
         default: ["academic"]
-        hint: '학술행사 academic / 발간물 publish / 사회참여 socialize'           
+        hint: '학술행사 academic / 발간물 publish / 사회참여 socialize' 
+      - { label: '본문', name: 'body', widget: 'markdown' }                  
