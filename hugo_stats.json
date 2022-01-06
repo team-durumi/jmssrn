@@ -11,9 +11,11 @@
       "h1",
       "h2",
       "h3",
+      "h4",
       "head",
       "header",
       "html",
+      "iframe",
       "img",
       "li",
       "link",
@@ -25,6 +27,7 @@
       "script",
       "section",
       "span",
+      "strong",
       "svg",
       "title",
       "ul"
@@ -270,6 +273,7 @@
       "strong",
       "text-2xl",
       "text-4xl",
+      "text-8xl",
       "text-base",
       "text-blue-500",
       "text-blue-600",
@@ -314,6 +318,11 @@
       "z-10"
     ],
     "ids": [
+      "h1-제목",
+      "h2-제목",
+      "h3-제목",
+      "h4-제목",
+      "h4-제목-1",
       "발표-15001630",
       "일본군위안부-관계-자료-조사의-현황과-과제",
       "종합토론-16301700"
