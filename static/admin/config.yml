@@ -20,6 +20,8 @@ collections:
       - label: "첨부파일"
         name: "post_materials"
         widget: "file"
+        media_folder: static/materials/posts
+        required: false
         media_library:
           config:
             multiple: true 
@@ -46,6 +48,8 @@ collections:
       - label: "첨부파일"
         name: "article_materials"
         widget: "file"
+        media_folder: static/materials/articles
+        required: false
         media_library:
           config:
             multiple: true      
@@ -58,5 +62,5 @@ collections:
         multiple: true
         options: ["academic", "publish", "socialize", "news", "event"]
         default: ["academic"]
-        hint: '학술행사 academic / 발간물 publish / 사회참여 socialize' 
+        hint: '학술행사 academic / 발간물 publish / 사회참여 socialize / 보도자료 news / 행사안내 event'
       - { label: '본문', name: 'body', widget: 'markdown' }                  
