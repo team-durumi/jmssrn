@@ -20,7 +20,6 @@ collections:
       - label: "첨부파일"
         name: "post_materials"
         widget: "file"
-        media_folder: static/materials/posts
         required: false
         media_library:
           config:
@@ -48,7 +47,6 @@ collections:
       - label: "첨부파일"
         name: "article_materials"
         widget: "file"
-        media_folder: static/materials/articles
         required: false
         media_library:
           config:
