@@ -28,9 +28,11 @@ collections:
       - { label: '메인 상단', name: 'pinned', widget: 'boolean', default: false, hint: 'true 메인 상단 노출', required: false }
       - label: "분류"
         name: "tags"
-        widget: "list"
+        widget: "select"
+        multiple: true
+        options: [ "news", "event", "academic", "publish", "socialize",]
         default: ["news"]
-        hint: '보도자료 news / 행사안내 event'
+        hint: '보도자료 news / 행사안내 event / 학술행사 academic / 발간물 publish / 사회참여 socialize'        
       - { label: '본문', name: 'body', widget: 'markdown' }          
   - name: 'article'
     label: '학회활동'
@@ -54,7 +56,7 @@ collections:
       - { label: '대표이미지', name: 'image', widget: 'image', required: false }
       - { label: '메인 공개', name: 'home_sticky', widget: 'boolean', default: false, hint: 'true 메인공개', required: false }
       - { label: '메인 상단', name: 'pinned', widget: 'boolean', default: false, hint: 'true 메인 상단 노출', required: false }
-      - label: "활동구분"
+      - label: "분류"
         name: "tags"
         widget: "select"
         multiple: true
