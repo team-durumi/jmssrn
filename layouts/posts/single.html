@@ -22,6 +22,9 @@
             	<img class="w-full h-1/2" src="{{ .Params.Image | absURL }}" alt="{{ .Title }}대표이미지">
             {{ end }}
           </div>
+          <h3 class="text-xl">
+							첨부파일 : <a href="{{ .Params.post_materials }}" download >{{ .Params.post_materials }}</a>
+					</h3>
 						{{ .Content }}
 				</article>
 			</div>
