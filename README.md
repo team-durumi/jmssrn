@@ -13,9 +13,15 @@ go mod download
 hugo mod get -u
 hugo server
 ```
+- 오랜만에 개발 환경 확인할 때
+```
+hugo mod clean
+go mod tidy
+```
 
 ## Netlify build command
 ```
 netlify build command:
 hugo mod get -u ./... && hugo --gc --minify
 ```
+
