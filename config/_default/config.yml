@@ -4,10 +4,12 @@ title: 일본군’위안부’연구회
 baseURL: https://jmssrn.org/
 defaultContentLanguage: ko
 hasCJKLanguage: true
-paginate: 5
+pagination.pagerSize: 5
 
 build:
   writeStats: true
 
 taxonomies:
   tag: tags
+
+ignoreLogs: warning-goldmark-raw-html
