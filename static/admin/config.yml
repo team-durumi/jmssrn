@@ -15,7 +15,7 @@ collections:
       - { label: '제목', name: 'title', widget: 'string' }
       - { label: '작성자', name: 'author', widget: 'string' }      
       - { label: '날짜', name: 'date', widget: 'datetime' }
-      - { label: '요약', name: 'summary', widget: 'string', required: false }
+      - { label: '요약', name: 'summary', widget: 'string', required: true }
       - { label: '대표이미지', name: 'image', widget: 'image', required: false }
       - label: "첨부파일"
         name: "post_materials"
@@ -45,7 +45,7 @@ collections:
       - { label: '제목', name: 'title', widget: 'string' }
       - { label: '작성자', name: 'author', widget: 'string' }      
       - { label: '날짜', name: 'date', widget: 'datetime' }
-      - { label: '요약', name: 'summary', widget: 'string', required: false }
+      - { label: '요약', name: 'summary', widget: 'string', required: true }
       - label: "첨부파일"
         name: "article_materials"
         widget: "file"
