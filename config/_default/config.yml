@@ -13,3 +13,19 @@ taxonomies:
   tag: tags
 
 ignoreLogs: warning-goldmark-raw-html
+
+security:
+  funcs:
+    # getCSV 함수를 명시적으로 허용 (정규식 사용)
+    getCSV:
+      - .*
+    getJSON:
+      - .*
+  os:
+    read:
+      - .*
+  http:
+    methods:
+      - (?i)GET|POST
+    urls:
+      - .*

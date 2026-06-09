@@ -87,7 +87,7 @@ featuredItems:
       author: CCWPS
       date: 2020-11-23
       identifier: ccwps-01
-      author: 디스크립션 작성자
+      description_author: 디스크립션 작성자
       creator: 1951.5.29., RG 127-GK-109-A8872, NARA
       url : /items/0012
 
@@ -98,7 +98,7 @@ featuredItems:
       author: CCWPS
       date: 2020-11-23
       identifier: ccwps-02
-      author: 디스크립션 작성자
+      description_author: 디스크립션 작성자
       creator: 1951.10.17, RG 111-SC-Box 813-382561, NARA
       url : /items/0013      
 
@@ -109,7 +109,7 @@ featuredItems:
       author: CCWPS
       date: 2020-11-23
       identifier: ccwps-03
-      author: 디스크립션 작성자
+      description_author: 디스크립션 작성자
       creator: 951.10.17, RG 111-SC-Box 813-382561, NARA
       url : /items/0014               
 
